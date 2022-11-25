@@ -10,7 +10,7 @@ dcgm/
 .DS_Store
 backup/
 script/command.sh
-mkdocs.yml
+results/
 
 # Byte-compiled / optimized / DLL files
 .idea/

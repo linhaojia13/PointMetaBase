@@ -1,32 +1,11 @@
 from .pointnet import PointNetEncoder
 from .pointnetv2 import PointNet2Encoder, PointNet2Decoder, PointNetFPModule
 from .pointnext import PointNextEncoder, PointNextDecoder
-from .pointnextsep import PointNextSepEncoder
-from .pointnextsep_onenormact import PointNextSepEncoderOneNormAct
-from .pointnextrep import PointNextRepEncoder, AllConcatDecoder, AllConcatDecoder128, AllConcatDecoder256,\
-AllConcatDecoderAll256, AllConcatDecoderAll128, All4ConcatDecoder256, All4ConcatDecoder256_64, All3ConcatDecoder256_64
-from .pointnextrepfpn import FPthenAllConcatDecoder256, UpDownthenAllConcatDecoder256
-from .pointnextreptr import PointNextRepTREncoder
-from .pointnextreponepe import PointNextRepOnePEEncoder
-from .pointnextsaseponepe import PointNextSASepOnePEEncoder
 from .pointmetabaselineepe import PointMetaBaselineEPEEncoder
 from .pointmetabaselineepedp import PointMetaBaselineEPEDPEncoder
-
 from .pointmetabaselinenope import PointMetaBaselineNOPEEncoder
 from .pointmetabase import PointMetaBaseEncoder
 
-from .pointnextreponepeml import PointNextRepOnePEMLEncoder
-from .pointnextreponepege import PointNextRepOnePEGEEncoder
-from .pointnextreponepegge import PointNextRepOnePEGGEEncoder
-from .pointnextreponepexyzge import PointNextRepOnePEXYZGEEncoder
-from .pointnextreponepehge import PointNextRepOnePEHGEEncoder
-from .pointnextreponepeglu import PointNextRepOnePEGLUEncoder
-from .pointnextreplongrange import  All4ConcatDecoder256_64_LongRange, All3ConcatDecoder256_64_LongRange, LongRange
-from .pointnextrepflash import PointNextRepFLASHEncoder
-from .pointnextrepformernoconv1 import PointNextRepFormerNoConv1Encoder
-from .pointnextrepformeraddskip import PointNextRepFormerAddSkipEncoder
-from .pointnextrepformeraddskippostconv1 import PointNextRepFormerAddSkipPostConv1Encoder
-from .pointnextnbn import PointNextNBNEncoder
 from .dgcnn import DGCNN
 from .deepgcn import DeepGCN
 from .pointmlp import PointMLPEncoder, PointMLP
