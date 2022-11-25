@@ -1,13 +1,7 @@
-# CUDA_VISIBLE_DEVICES=1 python examples/profile.py batch_size=64 num_points=2048 timing=True --cfg cfgs/shapenetpart/pointnext-s.yaml model.encoder_args.in_channels=3 model.encoder_args.width=32
-# Batches npoints Params.(M)      GFLOPs
-# 64      2048     1.949   10.21
-# Throughput (ins./s): 351.7839235380427
-
-
-# CUDA_VISIBLE_DEVICES=1 python examples/profile.py batch_size=64 num_points=2048 timing=True --cfg cfgs/shapenetpart/pointnext-s.yaml model.encoder_args.in_channels=3 model.encoder_args.width=64
-# Batches npoints Params.(M)      GFLOPs
-# 64      2048     7.572   40.26
-# Throughput (ins./s): 145.42841435056343
+# Model Information
+# GFLOPs     Params.(M)
+# 18.45       22.6609
+# Throughput (ins./s): 271
 
 model:
   NAME: BasePartSeg

@@ -61,4 +61,4 @@ val_freq: 1
 pretrained_path: null 
 
 wandb:
-  project: PointNeXt-ScanObjectNN
+  project: PointMetaBase-ScanObjectNN

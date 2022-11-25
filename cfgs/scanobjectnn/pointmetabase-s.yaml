@@ -1,6 +1,7 @@
-# FLOPs	GMACs	Params.(M)
-#  1.64	 0.81	 1.367
-# 2040.039810480711
+# Model Information
+# GFLOPs     Params.(M)
+#  0.55       1.428
+# Throughput (ins./s): 2674
 
 model:
   NAME: BaseCls

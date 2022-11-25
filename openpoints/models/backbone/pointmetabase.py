@@ -1,7 +1,5 @@
-"""Official implementation of PointNext
-PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies
-https://arxiv.org/abs/2206.04670
-Guocheng Qian, Yuchen Li, Houwen Peng, Jinjie Mai, Hasan Abed Al Kader Hammoud, Mohamed Elhoseiny, Bernard Ghanem
+"""
+PointMetaBase
 """
 from re import I
 from typing import List, Type

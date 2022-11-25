@@ -62,6 +62,6 @@ val_batch_size: 64
 pretrained_path: null 
 
 wandb:
-  project: PointNeXt-ModelNet40Ply2048
+  project: PointMetaBase-ModelNet40Ply2048
 
 seed: null

@@ -1,7 +1,7 @@
 # Model Information
 # GFLOPs  Params.(M)
-#  84.81    41.576
-# Throughput (ins./s): 46.06739325463371 
+# 15.284    9.19
+# Throughput (ins./s): 104
 
 model:
   NAME: BaseSeg

@@ -74,4 +74,4 @@ val_freq: 1
 pretrained_path: null 
 
 wandb:
-  project: PointNext-ShapeNetPart
+  project: PointMetaBase-ShapeNetPart

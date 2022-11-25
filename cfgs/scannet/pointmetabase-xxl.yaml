@@ -1,6 +1,8 @@
-# Batches npoints Params.(M)      GFLOPs
-# 4       45056    46.673  458.71
-# Throughput (ins./s): 6.1121641194431335
+# Model Information
+# GFLOPs  Params.(M)
+# 11.46    19.686
+# Throughput (ins./s): 90
+
 
 model:
   NAME: BaseSeg
