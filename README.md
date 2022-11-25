@@ -138,8 +138,7 @@ If you feel inspired by our work, please cite
 ```tex
 @Article{lin2022pointmeta,
   author  = {Haojia Lin},
-  journal = {arXiv:2211.04670},
-  title   = {PointMeta},
+  title   = {Meta Architecure for Point Cloud Analysis},
   year    = {2022},
 }
 ```

@@ -9,6 +9,8 @@ slurm*
 dcgm/
 .DS_Store
 backup/
+script/command.sh
+mkdocs.yml
 
 # Byte-compiled / optimized / DLL files
 .idea/
