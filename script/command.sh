@@ -304,5 +304,3 @@ CUDA_VISIBLE_DEVICES=3 python examples/profile.py --cfg cfgs/scannet/pointnext-x
 CUDA_VISIBLE_DEVICES=3 python examples/profile.py --cfg cfgs/scannet/pointnext-l.yaml batch_size=16 num_points=15000 flops=True timing=True
 CUDA_VISIBLE_DEVICES=3 python examples/profile.py --cfg cfgs/scannet/pointmetabase-l.yaml batch_size=16 num_points=15000 flops=True timing=True
 CUDA_VISIBLE_DEVICES=3 python examples/profile.py --cfg cfgs/scannet/pointmetabase-b.yaml batch_size=16 num_points=15000 flops=True timing=True
-
-                     
