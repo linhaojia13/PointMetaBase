@@ -1,5 +1,5 @@
 # PointMetaBase
-This is a PyTorch implementation of PointMetaBase proposed by our paper "[Meta Architecure for Point Cloud Analysis]()".
+This is a PyTorch implementation of PointMetaBase proposed by our paper "[Meta Architecure for Point Cloud Analysis](https://arxiv.org/abs/2211.14462)".
 
 **Abstract**:  Recent advances in 3D point cloud analysis bring a diverse set of network architectures to the field. However, the lack of a unified framework to interpret those networks makes any systematic comparison, contrast, or analysis challenging, and practically limits healthy development of the field. In this paper, we take the initiative to explore and propose a unified framework called PointMeta, to which the popular 3D point cloud analysis approaches could fit. This brings three benefits. First, it allows us to compare different approaches in a fair manner, and use quick experiments to verify any empirical observations or assumptions summarized from the comparison. Second, the big picture brought by PointMeta enables us to think across different components, and revisit common beliefs and key design decisions made by the popular approaches. Third, based on the learnings from the previous two analyses, by doing simple tweaks on the existing approaches, we are able to derive a basic building block, termed PointMetaBase. It shows very strong performance in efficiency and effectiveness through extensive experiments on challenging benchmarks, and thus verifies the necessity and benefits of high-level interpretation, contrast, and comparison like PointMeta. In particular, PointMetaBase surpasses the previous state-of-the-art method by 0.7%/1.4/%2.1% mIoU with only 2%/11%/13% of the computation cost on the S3DIS datasets. 
 
@@ -122,23 +122,16 @@ CUDA_VISIBLE_DEVICES=0 python examples/profile.py --cfg cfgs/scanobjectnn/pointn
 ```
 
 ## Acknowledgment
-This repository is built on reusing codes of [OpenPoints]() and [PointNeXt](https://github.com/guochengqian/PointNeXt). 
-We recommend using their code repository in your research and reading the related article:
-```tex
-@Article{qian2022pointnext,
-  author  = {Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan and Elhoseiny, Mohamed and Ghanem, Bernard},
-  journal = {arXiv:2206.04670},
-  title   = {PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies},
-  year    = {2022},
-}
-```
+This repository is built on reusing codes of [OpenPoints](https://github.com/guochengqian/openpoints) and [PointNeXt](https://github.com/guochengqian/PointNeXt). 
+We recommend using their code repository in your research and reading the [related article](https://arxiv.org/abs/2206.04670).
 
 ## Citation
 If you feel inspired by our work, please cite
 ```tex
-@Article{lin2022pointmeta,
-  author  = {Haojia Lin},
-  title   = {Meta Architecure for Point Cloud Analysis},
-  year    = {2022},
+@Article{lin2022meta,
+    title={Meta Architecure for Point Cloud Analysis},
+    author={Haojia Lin and Xiawu Zheng and Lijiang Li and Fei Chao and Shanshan Wang and Yan Wang and Yonghong Tian and Rongrong Ji},
+    journal = {arXiv:2211.14462},
+    year={2022},
 }
 ```
