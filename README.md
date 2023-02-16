@@ -48,7 +48,7 @@ Please refer to [PointNeXt tutorial](https://guochengqian.github.io/PointNeXt/) 
 |:-----------------:|:-----------------:|:---------------------:|:--------------:|:----------:|:---------:|:--------------:|
 |  PointMetaBase-L  | 69.5±0.3/90.5±0.1 | [69.723/90.702](https://drive.google.com/file/d/1LRMu_JasWhlM9tFumMouUPeDeTnD8Mg3/view?usp=share_link)     | [75.6/90.6](https://drive.google.com/file/d/15T2RxPSW8mmvqHTHF7meXPs-yslPY_nX/view?usp=share_link)  |     2.7    |    2.0    |       187      |
 |  PointMetaBase-XL | 71.1±0.4/90.9±0.1 | [71.597/90.551](https://drive.google.com/file/d/1zuaLaKLoFF8r3y0ano04tRm_FoLSaZ8N/view?usp=share_link)     | [76.3/91.0](https://drive.google.com/file/d/123usjeRwr5HUMCryis2soE0er7eUU7dR/view?usp=share_link)  |    15.3    |    9.2    |       104      |
-| PointMetaBase-XXL | 71.3±0.7/90.8±0.6 | [72.250/91.322](https://drive.google.com/file/d/1hYOMxYBzLtQ1QOlxvnX7qHw_pJ3Kj5n1/view?usp=share_link)     | [77.0/91.3](https://drive.google.com/file/d/123usjeRwr5HUMCryis2soE0er7eUU7dR/view?usp=share_link)  |    19.7    |    11.0   |       90       |
+| PointMetaBase-XXL | 71.3±0.7/90.8±0.6 | [72.250/91.322](https://drive.google.com/file/d/1hYOMxYBzLtQ1QOlxvnX7qHw_pJ3Kj5n1/view?usp=share_link)     | [77.0/91.3](https://drive.google.com/file/d/1ZcLZR8_dd2nB8TzRA8Mbl3HtoayKup9w/view?usp=share_link)  |    19.7    |    11.0   |       90       |
 
 #### Train
 ```
