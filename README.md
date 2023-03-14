@@ -23,6 +23,10 @@ PointMeta. (g) Applying the summarized best practices, we do simple tweaks on th
 <br/>
 <br/>
 
+## News
+- *Feb, 2023*: [PointMeta](https://arxiv.org/abs/2211.14462) accepted by CVPR 2023.
+- *Nov, 2022*: Code released.
+
 ## Install
 ```
 source install.sh
